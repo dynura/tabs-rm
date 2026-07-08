@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabs</title>
+    <meta name="description" content="Tabs to view different contents.">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="wrapper">
+        <header class="project-header">
+            <h1>Tabs</h1>
+            <p>Clicking each tab should hide the content of the other tab and show the content of clicked tab.</p>
+        </header>
+
+        <div class="tabs-container">
+            <div class="tab-buttons" role="tablist">
+                <button class="tab-btn active" data-tab="1" role="tab" aria-selected="true">Features</button>
+                <button class="tab-btn" data-tab="2" role="tab" aria-selected="false">Benefits</button>
+                <button class="tab-btn" data-tab="3" role="tab" aria-selected="false">Pre-requisites</button>
+                <button class="tab-btn" data-tab="4" role="tab" aria-selected="false">Reviews</button>
+            </button>
+            </div>
+
+            <div class="tab-content-wrapper">
+                <div class="tab-panel active" id="panel-1" role="tabpanel">
+                    <p>Our core architecture offers a robust, modular layout engine engineered to aggregate multi-layered data streams into a single, cohesive view. By utilizing semantic components and zero-dependency vanilla utilities, it ensures blistering load times, cross-device layout consistency, and effortless integration into complex dashboard ecosystems.</p>
+                </div>
+                <div class="tab-panel" id="panel-2" role="tabpanel">
+                    <p>Streamline user experiences by eliminating cognitive overload and minimizing disruptive page refreshes. Transitioning to a dynamic state framework allows users to focus exclusively on contextually isolated workflows, maximizing content engagement and boosting layout traversal speeds by up to 40%.</p>
+                </div>
+                <div class="tab-panel" id="panel-3" role="tabpanel">
+                    <p>Before implementation, ensure your target workspace supports modern ECMAScript specifications (ES6+) and structured CSS root variable definitions. No third-party bundlers, compilation steps, or heavy runtime frameworks are required—making it plug-and-play across standard evergreen browsers.</p>
+                </div>
+                <div class="tab-panel" id="panel-4" role="tabpanel">
+                    <p>Consistently rated a flawless 5/5 stars by engineering squads for its near-zero performance footprint and exceptionally clean documentation. Teams report that migrating from legacy component suites down to this streamlined UI structure slashed structural bugs and significantly simplified responsive styling.</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="project-footer">
+        <p>&copy; 2026 HTML, CSS & Javascript Project. For personal use only.</p>
+        <p class="credit-text">Images credited to their respective owners.</p>
+    </footer>
+
+    <script src="app.js"></script> 
+</body>
+</html>
